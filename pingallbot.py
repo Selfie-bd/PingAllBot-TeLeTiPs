@@ -80,9 +80,9 @@ async def everyone(client, message):
                 pass  
               i = i+j
           if i == lenMembersList:    
-            await message.reply(f"✅ | Successfully mentioned **total number of {i} members**.\n❌ | Bots and deleted accounts were rejected.") 
+            await message.reply(f"✅ | Successfully mentioned **⚡total number of {i} members**.\n❌ | Bots and deleted accounts were rejected.") 
           else:
-            await message.reply(f"✅ | Successfully mentioned **{i} members.**\n❌ | Bots and deleted accounts were rejected.")    
+            await message.reply(f"✅ | Successfully mentioned **💫{i} members.**\n❌ | Bots and deleted accounts were rejected.")    
           chatQueue.remove(message.chat.id)
     else:
       await message.reply("👮🏻 | Sorry, **only admins** can execute this command.")  
@@ -238,7 +238,7 @@ My name is **PingAll**. I'm here to help you to get everyone's attention by ment
 
 I have some additional cool features and also I can work in channels.
 
-Don't forget to join my [channel](http://t.me/teletipsofficialchannel) to recieve information on all the latest updates.
+Don't forget to Join my [Bot Update Channel](http://t.me/groupdcbots) to recieve information on all the latest updates.
 
 Hit /help to find out my commands and the use of them.
 '''
@@ -257,7 +257,7 @@ Hey, let's have a quick look at my commands.
 - /bots: <i>Get the full bot list.</i>
 - /stop: <i>Stop an on going process.</i>
 
-If you have any questions on how to use me, feel free to ask in my [support group](https://t.me/teletipsofficialontopicchat). More on my [page](https://github.com/teletips/PingAllBot-TeLeTiPs).
+If you have any questions on how to use me, feel free to ask in my [👥 Support Group](https://t.me/groupdc). More on my [Page ✨](https://github.com/selfie-bd/PingAllBot-TeLeTiPs).
 '''
   await teletips.send_message(message.chat.id, text, disable_web_page_preview=True)
 
