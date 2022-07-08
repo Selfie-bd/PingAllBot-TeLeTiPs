@@ -1,3 +1,7 @@
+
+
+https://img.shields.io/static/v1?label=Knotters&message=Project&color=1657ce&link=https://knotters.org&style=for-the-badge
+
 <h1 align= center>PingAllBot - TeLeTiPs</h1>
 <h3 align = center>Powerful Telegram bot to get everyone's attention by mentioning all members in the chat.
 <br>PingAll bot has some additional cool features and also it can work in channels.
